@@ -74,7 +74,7 @@ setup_configs() {
     mkdir -p ~/.config/yt-dlp
     sleep 1.5
     echo -e "${Y}${L}\n Getting config file... \n${N}"
-    wget -q https://raw.githubusercontent.com/juniorsir/Termux-b-p/main/config -P ~/.config/yt-dlp
+    wget -q https://raw.githubusercontent.com/juniorsir/Termux-background-player/main/config -P ~/.config/yt-dlp
     cd ~/.config/yt-dlp || exit 1
     chmod +x config
     sleep 1
