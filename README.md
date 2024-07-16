@@ -27,6 +27,8 @@ termux-setup-storage
 
 ```shell
 git clone https://github.com/juniorsir/Termux-background-player.git
+cd Termux-background-player
+bash Termux-b-p.sh
 ```
 
 ##### (and wait the process to finish.)
