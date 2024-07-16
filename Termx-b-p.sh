@@ -64,7 +64,7 @@ install_youtube_dl() {
 
 # Function to set up configurations
 setup_configs() {
-    echo -e "${Y}${L}\n Setting up configs..." $G" Ak500 \n${N}"
+    echo -e "${Y}${L}\n Setting up configs..." $G" JuniorSir \n${N}"
     sleep 2
     echo -e "${Y}${L}\n Creating New music folder... \n${N}"
     mkdir -p ~/storage/shared/New music
@@ -98,7 +98,7 @@ main() {
     print_header
     update_packages
     print_header
-    echo -e "${Y}${L}\n YouTube-dl Installer By" $G" Ak500 \n${N}"
+    echo -e "${Y}${L}\n YouTube-dl Installer By" $G" JuniorSir \n${N}"
     install_python
     echo -e "${Y}${L}\n Installing ffmpeg... \n${N}"
     install_ffmpeg
@@ -108,7 +108,7 @@ main() {
     install_youtube_dl
     setup_configs
     setup_executables
-    echo -e "${Y}${L}\n Finishing configuration..." $G" Ak500 \n${N}"
+    echo -e "${Y}${L}\n Finishing configuration..." $G" JuniorSir \n${N}"
     sleep 3.5
     echo -e "${G}\n   Installation Finished...\n${N}"
     kill -1 $PPID
