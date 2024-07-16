@@ -66,8 +66,8 @@ install_youtube_dl() {
 setup_configs() {
     echo -e "${Y}${L}\n Setting up configs..." $G" Ak500 \n${N}"
     sleep 2
-    echo -e "${Y}${L}\n Creating Youtube folder... \n${N}"
-    mkdir -p ~/storage/shared/YouTube
+    echo -e "${Y}${L}\n Creating New music folder... \n${N}"
+    mkdir -p ~/storage/shared/New music
     sleep 1.5
     echo -e "${Y}${L}\n Creating youtube-dl config... \n${N}"
     rm -rf ~/.config/yt-dlp
@@ -86,7 +86,7 @@ setup_executables() {
     mkdir -p ~/bin
     sleep 1.5
     echo -e "${Y}${L}\n Getting files...\n${N}"
-    rm -rf ~/bin/termux-url-opener
+    rm -rf ~/bin/Termux-background-player
     wget -q https://raw.githubusercontent.com/juniorsir/Termux-b-p/main/Termux-background-player -P ~/bin
     cd ~/bin || exit 1
     chmod +x Termux-background-player
