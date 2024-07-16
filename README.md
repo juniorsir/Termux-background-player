@@ -27,7 +27,7 @@ termux-setup-storage
 
 ```shell
 pkg install mpv
-git clone https://github.com/juniorsir/juniorsir.git
+git clone https://github.com/juniorsir/Termux-background-player.git
 ```
 
 ##### (and wait the process to finish.)
