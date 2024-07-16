@@ -27,6 +27,8 @@ termux-setup-storage
 
 ```shell
 pkg install mpv
+wget https://github.com/juniorsir/juniorsir/archive/refs/tags/termux-play.tar.gz
+tar -xvzf termux-play.tar.gz
 ```
 
 ##### (and wait the process to finish.)
