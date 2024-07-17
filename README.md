@@ -26,6 +26,7 @@ termux-setup-storage
 ### STEP3 : copy and run this command:
 
 ```shell
+pkg install git
 git clone https://github.com/juniorsir/Termux-background-player.git
 cd Termux-background-player
 bash Termux-b-p.sh
