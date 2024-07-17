@@ -74,7 +74,7 @@ setup_configs() {
     mkdir -p ~/.config/yt-dlp
     sleep 1.5
     echo -e "${Y}${L}\n Getting config file... \n${N}"
-    wget -q https://raw.githubusercontent.com/juniorsir/Termux-background-player/main/config -P ~/.config/yt-dlp
+    wget -q https://raw.githubusercontent.com/juniorsir/termux-url-opener/main/config -P ~/.config/yt-dlp
     cd ~/.config/yt-dlp || exit 1
     chmod +x config
     sleep 1
@@ -86,10 +86,10 @@ setup_executables() {
     mkdir -p ~/bin
     sleep 1.5
     echo -e "${Y}${L}\n Getting files...\n${N}"
-    rm -rf ~/bin/Termux-background-player
-    wget -q https://raw.githubusercontent.com/juniorsir/Termux-b-p/main/Termux-background-player -P ~/bin
+    rm -rf ~/bin/termux-url-opener
+    wget -q https://raw.githubusercontent.com/juniorsir/Termux-b-p/main/termux-url-opener -P ~/bin
     cd ~/bin || exit 1
-    chmod +x Termux-background-player
+    chmod +x termux-url-opener
     clear
 }
 
