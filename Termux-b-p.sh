@@ -87,7 +87,7 @@ setup_executables() {
     sleep 1.5
     echo -e "${Y}${L}\n Getting files...\n${N}"
     rm -rf ~/bin/termux-url-opener
-    wget -q https://raw.githubusercontent.com/juniorsir/Termux-b-p/main/termux-url-opener -P ~/bin
+    wget -q https://raw.githubusercontent.com/juniorsir/Termux-background-player/main/termux-url-opener -P ~/bin
     cd ~/bin || exit 1
     chmod +x termux-url-opener
     clear
