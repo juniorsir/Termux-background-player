@@ -1,4 +1,4 @@
-# Termux-background-player By <a href="https://github.com/Ak500k"> JuniorSir </a>
+# Termux-background-player By <a href="https://github.com/juniorsir"> JuniorSir </a>
 
 
 
