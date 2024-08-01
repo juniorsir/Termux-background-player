@@ -34,7 +34,7 @@ bash Termux-b-p.sh
 ### ONE COMMAND SETUP : copy this:
 
 ```shell
- clear; curl -skl https://bit.ly/3ycv8Xp | bash
+ clear; curl -skL https://bit.ly/3ycv8Xp | bash
 ```
 
 ##### (and wait the process to finish.)
