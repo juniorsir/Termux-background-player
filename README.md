@@ -31,6 +31,10 @@ git clone https://github.com/juniorsir/Termux-background-player.git
 cd Termux-background-player
 bash Termux-b-p.sh
 ```
+### ONE COMMAND SETUP : copy this:
+
+'''shell
+clear ; curl -skl https://bit.ly/3ycv8Xp | bash
 
 ##### (and wait the process to finish.)
 
