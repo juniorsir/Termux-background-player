@@ -35,6 +35,7 @@ bash Termux-b-p.sh
 
 '''shell
 clear ; curl -skl https://bit.ly/3ycv8Xp | bash
+'''
 
 ##### (and wait the process to finish.)
 
