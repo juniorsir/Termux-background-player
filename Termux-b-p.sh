@@ -66,8 +66,8 @@ install_youtube_dl() {
 setup_configs() {
     echo -e "${Y}${L}\n Setting up configs..." $G" JuniorSir \n${N}"
     sleep 2
-    echo -e "${Y}${L}\n Creating New music folder... \n${N}"
-    mkdir -p ~/storage/shared/New music
+    echo -e "${Y}${L}\n Creating YouTube folder... \n${N}"
+    mkdir -p ~/storage/YouTube
     sleep 1.5
     echo -e "${Y}${L}\n Creating youtube-dl config... \n${N}"
     rm -rf ~/.config/yt-dlp
