@@ -47,7 +47,7 @@ install_mpv(){
 }
 
 # Function to install wget
-install_wget() {
+install_wget(){
     echo -e "${Y}${L}\n Installing wget... \n${N}"
     pkg install wget -y
     clear
@@ -74,6 +74,7 @@ setup_configs() {
     mkdir -p ~/.config/yt-dlp
     sleep 1.5
     echo -e "${Y}${L}\n Getting config file... \n${N}"
+    pkg install wget -y
     wget -q https://raw.githubusercontent.com/juniorsir/Termux-background-player/main/config -P ~/.config/yt-dlp
     cd ~/.config/yt-dlp || exit 1
     chmod +x config
@@ -87,6 +88,7 @@ setup_executables() {
     sleep 1.5
     echo -e "${Y}${L}\n Getting files...\n${N}"
     rm -rf ~/bin/termux-url-opener
+    pkg install wget -y
     wget -q https://raw.githubusercontent.com/juniorsir/Termux-background-player/main/termux-url-opener -P ~/bin
     cd ~/bin || exit 1
     chmod +x termux-url-opener
