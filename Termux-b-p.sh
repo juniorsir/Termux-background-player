@@ -19,7 +19,7 @@ print_header() {
 # Function to update packages
 update_packages() {
     echo -e "${Y}${L}\n Updating... \n${N}"
-    pkg update && pkg upgrade -y
+    yes | pkg up
     clear
 }
 
