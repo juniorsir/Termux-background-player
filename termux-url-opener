@@ -112,7 +112,7 @@ do
         7)
           
             termux-toast "BaCkgrOunD plAyinG......🎧"
-            yt-dlp -o - | mpv - $1
+            mpv $1
             echo -e $G"\n   Finished...\n"$N
             sleep 1
             exit
