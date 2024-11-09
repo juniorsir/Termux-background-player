@@ -23,6 +23,11 @@ update_packages() {
     clear
 }
 
+install_termux-api() {
+    echo -e "${Y}${L}\n Installing Termux Api... \n${N}"
+    pkg install termux-api -y
+    clear
+}
 # Function to install Python and dependencies
 install_python() {
     echo -e "${Y}${L}\n Installing python... ${N}"
